@@ -146,12 +146,12 @@ export default {
       }
   },
 //   async created () {
-//     const { data } = await axios.get('https://localhost:1337/posts')
+//     const { data } = await axios.get('http://117.50.104.107:1337/posts')
 //     console.log(data)
 //     this.blogs = data
 //   },
   created () {
-    axios.post('http://localhost:1337/auth/local', {
+    axios.post('http://117.50.104.107:1337/auth/local', {
     identifier: 'daisy_yang',
     password: '12345678',
   })
